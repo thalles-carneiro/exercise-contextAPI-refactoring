@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Cars from './components/Cars';
 import './App.css';
-import Cars from './Cars';
 
-function App() {
-  return (
-    <Cars />
-  );
+class App extends Component {
+  render() {
+    return (
+      <Cars />
+    );
+  }
 }
 
 export default App;
